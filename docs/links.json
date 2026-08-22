@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-18T04:09:37Z",
+  "updated_at": "2026-08-22T08:55:38Z",
   "links": [
     {
       "slug": "eu-gpu",
@@ -18,15 +18,15 @@
     {
       "slug": "tg-gpu",
       "title": "Taiguo GB300 GPU utilization",
-      "url": "http://43.134.27.214:32101/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-node=$__all&var-datasource=prometheus&refresh=30s",
-      "description": "Fleet and per-host GPU utilization for prod-maas-gb300-taiguo. The Grafana target currently uses HTTP.",
+      "url": "http://119.28.108.242:32101/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-node=$__all&var-datasource=prometheus&refresh=30s",
+      "description": "Fleet and per-host GPU utilization for prod-maas-gb300-taiguo through the primary new tunnel. The Grafana target currently uses HTTP.",
       "category": "GPU monitoring",
       "tags": [
         "gb300",
         "grafana",
         "taiguo"
       ],
-      "updated_at": "2026-08-18T04:09:37Z"
+      "updated_at": "2026-08-22T08:55:38Z"
     }
   ]
 }
