@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T10:05:57Z",
+  "updated_at": "2026-09-09T10:08:40Z",
   "links": [
     {
       "slug": "gpu-booking",
@@ -31,15 +31,15 @@
     {
       "slug": "tg-gpu",
       "title": "Taiguo GB300 GPU utilization",
-      "url": "http://43.156.43.133:32201/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-node=$__all&var-datasource=prometheus&refresh=30s",
-      "description": "Fleet and per-host GPU utilization for prod-maas-gb300-taiguo through the current global Grafana endpoint. Grafana access may require login. The dashboard currently uses HTTP.",
+      "url": "http://43.156.43.133:32101/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-node=$__all&var-datasource=prometheus&refresh=30s",
+      "description": "Fleet and per-host GPU utilization for prod-maas-gb300-taiguo through the current Taiguo Grafana relay. Grafana access may require login. The dashboard currently uses HTTP.",
       "category": "GPU monitoring",
       "tags": [
         "gb300",
         "grafana",
         "taiguo"
       ],
-      "updated_at": "2026-09-09T10:05:57Z"
+      "updated_at": "2026-09-09T10:08:40Z"
     },
     {
       "slug": "dynamo-global",
