@@ -1,7 +1,20 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T03:31:40Z",
+  "updated_at": "2026-09-09T10:05:57Z",
   "links": [
+    {
+      "slug": "gpu-booking",
+      "title": "GPU booking · GPU 预约管理",
+      "url": "http://43.134.52.99:30081/",
+      "description": "Internal GPU machine reservation management. Login required. The service currently uses HTTP.",
+      "category": "GPU booking",
+      "tags": [
+        "gpu",
+        "booking",
+        "reservations"
+      ],
+      "updated_at": "2026-09-09T03:31:24Z"
+    },
     {
       "slug": "eu-gpu",
       "title": "Europe H200 GPU utilization",
@@ -18,42 +31,15 @@
     {
       "slug": "tg-gpu",
       "title": "Taiguo GB300 GPU utilization",
-      "url": "http://119.28.108.242:32101/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-node=$__all&var-datasource=prometheus&refresh=30s",
-      "description": "Fleet and per-host GPU utilization for prod-maas-gb300-taiguo through the primary new tunnel. The Grafana target currently uses HTTP.",
+      "url": "http://43.156.43.133:32201/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-node=$__all&var-datasource=prometheus&refresh=30s",
+      "description": "Fleet and per-host GPU utilization for prod-maas-gb300-taiguo through the current global Grafana endpoint. Grafana access may require login. The dashboard currently uses HTTP.",
       "category": "GPU monitoring",
       "tags": [
         "gb300",
         "grafana",
         "taiguo"
       ],
-      "updated_at": "2026-08-22T08:55:38Z"
-    },
-    {
-      "slug": "tg-accept",
-      "title": "Taiguo GLM-5.2 EAGLE acceptance",
-      "url": "http://119.28.108.242:32101/d/luchen-dynamo-runtime-operations/luchen-dynamo-runtime-operations?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=prometheus&var-namespace=maas-dev-zhouyulin&var-cluster=maas-dev-zhouyulin-glm52-nvfp4-gb300-tg-dev&viewPanel=212&refresh=30s",
-      "description": "Live speculative-decoding accept rate and accept length for the Ready Taiguo GLM-5.2 deployment in maas-dev-zhouyulin. The Grafana target currently uses HTTP.",
-      "category": "Inference monitoring",
-      "tags": [
-        "eagle",
-        "gb300",
-        "grafana",
-        "taiguo"
-      ],
-      "updated_at": "2026-08-24T08:32:52Z"
-    },
-    {
-      "slug": "gpu-booking",
-      "title": "GPU booking · GPU 预约管理",
-      "url": "http://43.134.52.99:30081/",
-      "description": "Internal GPU machine reservation management. Login required. The service currently uses HTTP.",
-      "category": "GPU booking",
-      "tags": [
-        "gpu",
-        "booking",
-        "reservations"
-      ],
-      "updated_at": "2026-09-09T03:31:24Z"
+      "updated_at": "2026-09-09T10:05:57Z"
     },
     {
       "slug": "dynamo-global",
@@ -68,6 +54,20 @@
         "monitoring"
       ],
       "updated_at": "2026-09-09T03:31:40Z"
+    },
+    {
+      "slug": "tg-accept",
+      "title": "Taiguo GLM-5.2 EAGLE acceptance",
+      "url": "http://119.28.108.242:32101/d/luchen-dynamo-runtime-operations/luchen-dynamo-runtime-operations?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=prometheus&var-namespace=maas-dev-zhouyulin&var-cluster=maas-dev-zhouyulin-glm52-nvfp4-gb300-tg-dev&viewPanel=212&refresh=30s",
+      "description": "Live speculative-decoding accept rate and accept length for the Ready Taiguo GLM-5.2 deployment in maas-dev-zhouyulin. The Grafana target currently uses HTTP.",
+      "category": "Inference monitoring",
+      "tags": [
+        "eagle",
+        "gb300",
+        "grafana",
+        "taiguo"
+      ],
+      "updated_at": "2026-08-24T08:32:52Z"
     }
   ]
 }
