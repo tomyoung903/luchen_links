@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-24T08:32:52Z",
+  "updated_at": "2026-09-09T03:31:40Z",
   "links": [
     {
       "slug": "eu-gpu",
@@ -41,6 +41,33 @@
         "taiguo"
       ],
       "updated_at": "2026-08-24T08:32:52Z"
+    },
+    {
+      "slug": "gpu-booking",
+      "title": "GPU booking · GPU 预约管理",
+      "url": "http://43.134.52.99:30081/",
+      "description": "Internal GPU machine reservation management. Login required. The service currently uses HTTP.",
+      "category": "GPU booking",
+      "tags": [
+        "gpu",
+        "booking",
+        "reservations"
+      ],
+      "updated_at": "2026-09-09T03:31:24Z"
+    },
+    {
+      "slug": "dynamo-global",
+      "title": "Dynamo global runtime operations",
+      "url": "http://43.156.43.133:32201/d/luchen-dynamo-runtime-operations/luchen-dynamo-runtime-operations?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=global-prometheus&var-namespace=$__all&var-cluster=$__all&refresh=30s",
+      "description": "Luchen Dynamo Runtime Operations with global-prometheus, all namespaces and clusters, a rolling 30-minute window, and 30-second refresh. Grafana access may require login. The dashboard currently uses HTTP.",
+      "category": "Inference monitoring",
+      "tags": [
+        "dynamo",
+        "global",
+        "grafana",
+        "monitoring"
+      ],
+      "updated_at": "2026-09-09T03:31:40Z"
     }
   ]
 }
