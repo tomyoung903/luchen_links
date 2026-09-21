@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T10:08:40Z",
+  "updated_at": "2026-09-21T07:37:08Z",
   "links": [
     {
       "slug": "gpu-booking",
@@ -68,6 +68,19 @@
         "taiguo"
       ],
       "updated_at": "2026-08-24T08:32:52Z"
+    },
+    {
+      "slug": "maas-test",
+      "title": "MaaS test platform",
+      "url": "http://43.134.52.99:31080/",
+      "description": "MaaS test platform in Singapore for load tests and endpoint debugging. Login required. The service currently uses HTTP.",
+      "category": "Testing",
+      "tags": [
+        "maas",
+        "singapore",
+        "testing"
+      ],
+      "updated_at": "2026-09-21T07:37:08Z"
     }
   ]
 }
