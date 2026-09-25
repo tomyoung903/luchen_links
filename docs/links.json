@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T07:37:08Z",
+  "updated_at": "2026-09-25T08:12:56Z",
   "links": [
     {
       "slug": "gpu-booking",
@@ -71,16 +71,18 @@
     },
     {
       "slug": "maas-test",
-      "title": "MaaS test platform",
-      "url": "http://43.134.52.99:31080/",
-      "description": "MaaS test platform in Singapore for load tests and endpoint debugging. Login required. The service currently uses HTTP.",
+      "title": "Alex Replay / MaaS test platform",
+      "url": "http://42.81.255.248:31080/tests",
+      "description": "Domestic Alex test platform for Replay, load tests, and endpoint debugging. Login required. The service currently uses HTTP.",
       "category": "Testing",
       "tags": [
+        "alex",
+        "domestic",
         "maas",
-        "singapore",
+        "replay",
         "testing"
       ],
-      "updated_at": "2026-09-21T07:37:08Z"
+      "updated_at": "2026-09-25T08:12:56Z"
     }
   ]
 }
