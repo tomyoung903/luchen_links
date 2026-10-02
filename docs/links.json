@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T02:14:37Z",
+  "updated_at": "2026-10-02T02:16:49Z",
   "links": [
     {
       "slug": "gpu-booking",
@@ -44,15 +44,15 @@
     {
       "slug": "grafana-domestic",
       "title": "Domestic central Grafana",
-      "url": "http://42.81.255.253:32201/",
-      "description": "Central Grafana for domestic (China) MaaS monitoring. Select a data source and namespace to choose the workload scope. Login may be required. The service uses HTTP.",
+      "url": "http://42.81.255.253:32201/dashboards",
+      "description": "Dashboard directory for domestic (China) MaaS monitoring. Open a dashboard, then select a data source and namespace to choose the workload scope. Login may be required. The service uses HTTP.",
       "category": "Inference monitoring",
       "tags": [
         "domestic",
         "grafana",
         "monitoring"
       ],
-      "updated_at": "2026-10-02T02:14:37Z"
+      "updated_at": "2026-10-02T02:16:49Z"
     },
     {
       "slug": "dynamo-global",
