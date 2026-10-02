@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T02:16:49Z",
+  "updated_at": "2026-10-02T02:22:05Z",
   "links": [
     {
       "slug": "gpu-booking",
@@ -43,16 +43,18 @@
     },
     {
       "slug": "grafana-domestic",
-      "title": "Domestic central Grafana",
-      "url": "http://42.81.255.253:32201/dashboards",
-      "description": "Dashboard directory for domestic (China) MaaS monitoring. Open a dashboard, then select a data source and namespace to choose the workload scope. Login may be required. The service uses HTTP.",
+      "title": "Domestic central Grafana · Dynamo runtime operations",
+      "url": "http://42.81.255.253:32201/d/luchen-dynamo-runtime-operations/luchen-dynamo-runtime-operations?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=global-prometheus&var-namespace=$__all&var-cluster=$__all&refresh=30s",
+      "description": "Dynamo Runtime Operations in the domestic central Grafana. The global-prometheus data source covers domestic (China) clusters, with all namespaces and clusters selected, a rolling 30-minute window, and 30-second refresh. Login may be required. The dashboard uses HTTP.",
       "category": "Inference monitoring",
       "tags": [
         "domestic",
+        "dynamo",
+        "global",
         "grafana",
         "monitoring"
       ],
-      "updated_at": "2026-10-02T02:16:49Z"
+      "updated_at": "2026-10-02T02:22:05Z"
     },
     {
       "slug": "dynamo-global",
