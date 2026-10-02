@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T08:12:56Z",
+  "updated_at": "2026-10-02T02:14:37Z",
   "links": [
     {
       "slug": "gpu-booking",
@@ -42,18 +42,32 @@
       "updated_at": "2026-09-09T10:08:40Z"
     },
     {
+      "slug": "grafana-domestic",
+      "title": "Domestic central Grafana",
+      "url": "http://42.81.255.253:32201/",
+      "description": "Central Grafana for domestic (China) MaaS monitoring. Select a data source and namespace to choose the workload scope. Login may be required. The service uses HTTP.",
+      "category": "Inference monitoring",
+      "tags": [
+        "domestic",
+        "grafana",
+        "monitoring"
+      ],
+      "updated_at": "2026-10-02T02:14:37Z"
+    },
+    {
       "slug": "dynamo-global",
-      "title": "Dynamo global runtime operations",
+      "title": "Overseas central Grafana · Dynamo runtime operations",
       "url": "http://43.156.43.133:32201/d/luchen-dynamo-runtime-operations/luchen-dynamo-runtime-operations?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=global-prometheus&var-namespace=$__all&var-cluster=$__all&refresh=30s",
-      "description": "Luchen Dynamo Runtime Operations with global-prometheus, all namespaces and clusters, a rolling 30-minute window, and 30-second refresh. Grafana access may require login. The dashboard currently uses HTTP.",
+      "description": "Dynamo Runtime Operations in the overseas central Grafana. The global-prometheus data source covers overseas clusters, with all namespaces and clusters selected, a rolling 30-minute window, and 30-second refresh. Login may be required. The dashboard uses HTTP.",
       "category": "Inference monitoring",
       "tags": [
         "dynamo",
         "global",
         "grafana",
-        "monitoring"
+        "monitoring",
+        "overseas"
       ],
-      "updated_at": "2026-09-09T03:31:40Z"
+      "updated_at": "2026-10-02T02:14:37Z"
     },
     {
       "slug": "tg-accept",
