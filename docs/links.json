@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-02T02:22:05Z",
+  "updated_at": "2026-10-22T01:38:35Z",
   "links": [
     {
       "slug": "gpu-booking",
@@ -27,6 +27,19 @@
         "h200"
       ],
       "updated_at": "2026-08-18T04:09:05Z"
+    },
+    {
+      "slug": "sh-gpu",
+      "title": "Shanghai B300 GPU utilization",
+      "url": "http://42.81.255.253:32201/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=prod-maas-b300-shanghai-prometheus&var-namespace=$__all&var-node=$__all&refresh=30s",
+      "description": "Fleet and per-host GPU utilization for prod-maas-b300-shanghai through the domestic central Grafana, with the Shanghai datasource selected. Login may be required. The dashboard currently uses HTTP.",
+      "category": "GPU monitoring",
+      "tags": [
+        "b300",
+        "grafana",
+        "shanghai"
+      ],
+      "updated_at": "2026-10-22T01:38:35Z"
     },
     {
       "slug": "tg-gpu",
