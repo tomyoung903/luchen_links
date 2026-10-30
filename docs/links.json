@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T01:38:35Z",
+  "updated_at": "2026-10-30T06:06:57Z",
   "links": [
     {
       "slug": "gpu-booking",
@@ -29,30 +29,44 @@
       "updated_at": "2026-08-18T04:09:05Z"
     },
     {
+      "slug": "hj-gpu",
+      "title": "Huanjing B300 development GPU utilization",
+      "url": "http://42.81.255.253:32201/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=dev-b300-huanjing-prometheus&var-namespace=$__all&var-node=$__all&refresh=30s",
+      "description": "Entire Huanjing (环京) B300 development fleet through domestic central Grafana with the verified Huanjing datasource selected. Fresh telemetry reported eight GPU hosts on 30 October 2026. Grafana login required. The dashboard uses HTTP.",
+      "category": "GPU monitoring",
+      "tags": [
+        "b300",
+        "development",
+        "grafana",
+        "huanjing"
+      ],
+      "updated_at": "2026-10-30T06:06:57Z"
+    },
+    {
       "slug": "sh-gpu",
       "title": "Shanghai B300 GPU utilization",
       "url": "http://42.81.255.253:32201/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=prod-maas-b300-shanghai-prometheus&var-namespace=$__all&var-node=$__all&refresh=30s",
-      "description": "Fleet and per-host GPU utilization for prod-maas-b300-shanghai through the domestic central Grafana, with the Shanghai datasource selected. Login may be required. The dashboard currently uses HTTP.",
+      "description": "Entire Shanghai B300 fleet through domestic central Grafana with the verified Shanghai datasource selected. Fresh telemetry reported 16 GPU hosts on 30 October 2026. Grafana login required. The dashboard uses HTTP.",
       "category": "GPU monitoring",
       "tags": [
         "b300",
         "grafana",
         "shanghai"
       ],
-      "updated_at": "2026-10-22T01:38:35Z"
+      "updated_at": "2026-10-30T06:06:57Z"
     },
     {
       "slug": "tg-gpu",
       "title": "Taiguo GB300 GPU utilization",
-      "url": "http://43.156.43.133:32101/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-node=$__all&var-datasource=prometheus&refresh=30s",
-      "description": "Fleet and per-host GPU utilization for prod-maas-gb300-taiguo through the current Taiguo Grafana relay. Grafana access may require login. The dashboard currently uses HTTP.",
+      "url": "http://43.156.43.133:32201/d/nvidia-gpu-overview/nvidia-gpu-fleet-overview?orgId=1&from=now-30m&to=now&timezone=browser&var-datasource=thailand-prometheus&var-namespace=$__all&var-node=$__all&refresh=30s",
+      "description": "Taiguo GB300 fleet through overseas central Grafana with the verified Thailand datasource selected. On 30 October 2026, the datasource returned no current GPU samples. Grafana login required. The dashboard uses HTTP.",
       "category": "GPU monitoring",
       "tags": [
         "gb300",
         "grafana",
         "taiguo"
       ],
-      "updated_at": "2026-09-09T10:08:40Z"
+      "updated_at": "2026-10-30T06:05:34Z"
     },
     {
       "slug": "grafana-domestic",
