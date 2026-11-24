@@ -1,19 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T06:12:42Z",
+  "updated_at": "2026-11-24T09:27:50Z",
   "links": [
+    {
+      "slug": "gpu-booking-domestic",
+      "title": "Domestic GPU booking · 国内 GPU 预约管理",
+      "url": "https://42.81.255.248:30081/",
+      "description": "Internal GPU machine reservation management for domestic machines, including the Shanghai B300 nodes. Login required.",
+      "category": "GPU booking",
+      "tags": [
+        "booking",
+        "domestic",
+        "gpu",
+        "reservations"
+      ],
+      "updated_at": "2026-11-24T09:27:50Z"
+    },
     {
       "slug": "gpu-booking",
       "title": "GPU booking · GPU 预约管理",
-      "url": "http://43.134.52.99:30081/",
-      "description": "Internal GPU machine reservation management. Login required. The service currently uses HTTP.",
+      "url": "https://43.134.52.99:30081/",
+      "description": "Internal GPU machine reservation management for overseas machines. Login required.",
       "category": "GPU booking",
       "tags": [
-        "gpu",
         "booking",
+        "gpu",
         "reservations"
       ],
-      "updated_at": "2026-09-09T03:31:24Z"
+      "updated_at": "2026-11-24T09:27:50Z"
     },
     {
       "slug": "eu-gpu",
